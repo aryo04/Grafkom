@@ -7,8 +7,8 @@ a, b = 12, 4  # Koordinat pusat lingkaran
 
 # Menghitung titik-titik lingkaran
 theta = np.linspace(0, 2 * np.pi, 100)  # Membuat array sudut dari 0 hingga 2π
-x = a + jari_jari * np.cos(theta)  # Menghitung koordinat x titik lingkaran
-y = b + jari_jari * np.sin(theta)  # Menghitung koordinat y titik lingkaran
+x = a + jari_jari * np.cos(theta)  # Menghitung koordinat x titik membentuk lingkaran
+y = b + jari_jari * np.sin(theta)  # Menghitung koordinat y titik membentuk lingkaran
 
 # Plot lingkaran
 plt.figure(figsize=(8, 5))  # Mengatur ukuran figure
